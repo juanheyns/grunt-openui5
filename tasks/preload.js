@@ -210,7 +210,8 @@ module.exports = function (grunt) {
 					var preloadObject = {
 						version: '2.0',
 						name: preloadModuleName,
-						modules: {}
+						modules: {},
+						url: preloadDir
 					};
 
 					if (typeof preloadInfo.processModuleName === 'function') {
